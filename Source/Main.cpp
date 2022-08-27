@@ -93,6 +93,7 @@ int main()
 
 			while (1 == window.pollEvent(event))
 			{
+				if (sf::Keyboard::isKeyPressed(sf::Keyboard::Escape)) window.close();
 				switch (event.type)
 				{
 					case sf::Event::Closed:
