@@ -41,7 +41,7 @@ constexpr unsigned short LONG_SCATTER_DURATION = 512;
 constexpr unsigned short SHORT_SCATTER_DURATION = 256;
 
 //I used enums! I rarely use them, so enjoy this historical moment.
-enum Cell
+enum class Cell
 {
 	Door,
 	Empty,
